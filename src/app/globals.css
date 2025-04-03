@@ -1021,7 +1021,8 @@ html {
     height: 150px !important ;
   }
   .floatingImg {
-    width: 90% !important;
+    width: 98% !important;
+    height: auto !important;
   }
   .float-head {
     font-size: 18px !important;
@@ -1336,7 +1337,7 @@ html {
   margin-left: -5px;
 }
 }
-@media screen and (max-width: 812px){
+@media screen and (max-width: 969px){
 .hero-header::before {
   top: 14px;
   right: 6px;

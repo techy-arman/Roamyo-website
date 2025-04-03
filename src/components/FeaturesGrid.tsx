@@ -292,7 +292,7 @@ const FeaturesGrid = memo(() => {
             onTouchEnd={resumeAutoplay}
           >
             {/* Card Container */}
-            <div className="flex justify-between items-stretch md:justify-center md:gap-6 mx-auto relative h-auto min-h-[450px] md:py-8 py-0 main-container featuresGrid-container">
+            <div className="flex justify-between items-stretch md:justify-center md:gap-6 mx-auto relative h-auto sm:min-h-[550px] min-h-[450px] md:py-8 py-0 main-container featuresGrid-container">
               {/* For desktop view - centered with equal gaps */}
               <div className="hidden md:flex justify-center items-stretch gap-6 w-full">
                 {visibleCards}

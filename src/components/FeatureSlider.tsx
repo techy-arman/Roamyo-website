@@ -66,6 +66,8 @@ const FeatureSlider = () => {
           ? 800
           : windowWidth > 1000
           ? 850
+          : windowWidth > 800
+          ? 700
           : windowWidth > 768
           ? 600
           : windowWidth > 480
