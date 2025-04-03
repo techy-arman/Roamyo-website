@@ -612,7 +612,7 @@ html {
 }
 /* footer start  */
 .footer-para {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 700;
   font-family: "Arial";
   text-align: left;
@@ -621,6 +621,7 @@ html {
   margin-top: 106px;
   margin-bottom: 22px;
 }
+
 .footer-para-sec {
   font-size: 18.7px;
   font-weight: 400;
@@ -654,7 +655,11 @@ html {
 .footerList li {
   padding: 5px 0px;
 }
-
+@media screen and (max-width: 1380px) {
+  .footer-header{
+    font-size: 80px !important;
+  }
+}
 @media screen and (max-width: 1280px) {
   .hero-header {
     font-size: 80px !important;
@@ -704,6 +709,7 @@ html {
   .footer-para {
     font-size: 20px;
     margin-top: 60px;
+
   }
   .footeImg1 {
     width: 60px !important;
@@ -1324,4 +1330,38 @@ html {
   width:50% !important;
   margin-left: -5px;
 }
+}
+@media screen and (max-width: 440px) {
+  .footeImg1 {
+    width: 16px !important;
+    height: 22px !important;
+  }
+  .footeImg2 {
+    width: 18px !important;
+    height: 20px !important;
+  }
+  .footeImg3 {
+    width: 20px !important;
+    height: 15px !important;
+  }
+  .footeImg4 {
+    width: 20px !important;
+    height: 19px !important;
+  }
+  .footeImg5 {
+    width: 14px !important;
+    height: 16px !important;
+  }
+  .footeImg6 {
+    width: 20px !important;
+    height: 16px !important;
+  }
+  .footeImg7 {
+    width: 16px !important;
+    height: 25px !important;
+  }
+  .footeImg8 {
+    width: 25px !important;
+    height: 20px !important;
+  }
 }

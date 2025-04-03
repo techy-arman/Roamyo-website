@@ -26,12 +26,11 @@ const Footer = () => {
                 />
               </Link>
             </div>
-
-            <h3 className="text-[#13263E] footer-para">
+            <h3 className="text-[#13263E] footer-para md:whitespace-nowrap whitespace-wrap">
               Where to Next? Let Roamyo Decide! ✈️
             </h3>
             <p className="footer-para-sec italic">
-              Join The Alpha Roamers and get AI-powered travel <br  className="hidden"/> magic in
+              Join The Alpha Roamers and get AI-powered travel <br  className="hidden md:block"/> magic in
               your inbox!
             </p>
 
@@ -59,13 +58,13 @@ const Footer = () => {
           {/* Right Side - Links and Tagline */}
           <div className="w-full flex-col gap-12">
             <div className="flex lg:justify-end md:justify-start mb-2">
-              <h2 className="footer-header">
+              <h2 className="footer-header whitespace-nowrap">
                 Keep <span className="font-bold">Roaming</span>
                 <span className="text-[#FF4D00] font-bold">.</span>
               </h2>
             </div>
             <div className="flex justify-end items-center mr-10">
-              <div className="flex lg:flex-row md:flex-col md:gap-4 flex-wrap justify-between w-full lg:max-w-[79%] md:w-full footerMenuList">
+              <div className="flex lg:flex-row md:flex-col md:gap-4 flex-wrap justify-between w-full xl:ml-32 ml-0 md:w-full footerMenuList">
                 {/* First Column */}
                 <div className="sm:w-1/2 md:w-auto mb-6 md:mb-0 footerCols">
                   <ul className="footerList">
@@ -142,11 +141,11 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex justify-end items-center mr-10">
-              <div className="flex flex-wrap justify-between w-full sm:max-w-[78%]">
+              <div className="flex flex-wrap justify-between w-full xl:ml-32 ml-0">
                 {/* Copyright */}
                 <div className="text-start text-md font-medium text-[#E5320F]">
                   © Copyright 2025. All rights reserved by Roamyo.
-                </div>
+                </div>  
               </div>
             </div>
           </div>
@@ -154,48 +153,48 @@ const Footer = () => {
 
         {/* Travel icons */}
         <div className="flex justify-start items-end md:space-x-12 space-x-6">
-          <Image src="/images/globe.png" alt="Globe" width={79} height={100} className="footeImg1" />
-          <Image src="/images/map.png" alt="Map" width={97} height={87} className="footeImg2" />
+          <Image src="/images/globe.png" alt="Globe" width={60} height={80} className="footeImg1" />
+          <Image src="/images/map.png" alt="Map" width={77} height={70} className="footeImg2" />
           <Image
             src="/images/Luggage.png"
             alt="Luggage"
-            width={91}
-            height={75}
+            width={71}
+            height={55}
             className="footeImg3"
           />
           <Image
             src="/images/palm-trees.png"
             alt="Palm Trees"
-            width={110}
-            height={95}
+            width={80}
+            height={65}
             className="footeImg4"
           />
           <Image
             src="/images/passport.png"
             alt="Passport"
-            width={57}
-            height={76}
+            width={40}
+            height={68}
             className="footeImg5"
           />
           <Image
             src="/images/suitcase.png"
             alt="Suitcase"
-            width={52}
-            height={113}
+            width={40}
+            height={90}
             className="footeImg6"
           />
           <Image
             src="/images/cocktail.png"
             alt="Cocktail"
-            width={67}
-            height={106}
+            width={40}
+            height={75}
             className="footeImg7"
           />
           <Image
             src="/images/bicycle.png"
             alt="Bicycle"
-            width={145}
-            height={88}
+            width={120}
+            height={70}
             className="footeImg8"
           />
         </div>

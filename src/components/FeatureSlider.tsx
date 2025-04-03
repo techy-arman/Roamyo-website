@@ -177,7 +177,7 @@ const FeatureSlider = () => {
             <div
               className={`slide ${
                 activeSlide === 0 ? "active-slide" : ""
-              } w-[320px] min-w-[320px] md:w-[500px] md:min-w-[500px] xl:w-[1100px] xl:min-w-[1100px] bg-white rounded-xl shadow-md mx-2 md:mx-4 lg:ml-40 md:ml-20 ml-20 sliderSlides`}
+              } w-[320px] min-w-[320px] md:w-[500px] md:min-w-[500px] xl:w-[1100px] xl:min-w-[1100px] bg-white rounded-xl shadow-md mx-2 md:mx-4 lg:ml-40 sm:ml-20 ml-10 sliderSlides`}
             >
               <div className="grid grid-cols-1 md:grid-cols-2 items-center h-full">
                 <div className="lg:py-24 py-0 px-8 flex justify-center padSlide">
