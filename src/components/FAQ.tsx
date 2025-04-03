@@ -246,7 +246,7 @@ const FAQ = () => {
                   className="object-contain hidden md:block"
                 />
                 <Image 
-                  src="/images/faq-img-mobile.png" 
+                  src="/images/faq-img.png" 
                   alt="Roamyo Mascot" 
                   width={80} 
                   height={80}

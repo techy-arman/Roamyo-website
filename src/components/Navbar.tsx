@@ -134,8 +134,8 @@ const Navbar = () => {
               </Link>
             ))}
             <Link
-              href="/contact"
-              className="relative block px-3 py-1.5 text-sm text-center border-2 border-[#ED552C] text-[#ED552C] rounded-full transition-all duration-500 ease-out hover:text-white hover:shadow-lg hover:scale-105 mx-3 transform sm:w-40 sm:mx-auto overflow-hidden group"
+              href=""
+              className="relative block px-3 py-1.5 text-sm text-center border-2 border-[#ED552C] text-white bg-[#ED552C] hover:text-[#ED552C] rounded-lg transition-all duration-500 ease-out hover:bg-transparent hover:shadow-lg hover:scale-105 mx-3 transform sm:w-40 sm:mx-auto overflow-hidden group"
               onClick={() => setIsMobileMenuOpen(false)}
               style={{
                 transitionDelay: `${navLinks.length * 50}ms`,

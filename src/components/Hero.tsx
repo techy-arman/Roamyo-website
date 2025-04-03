@@ -29,7 +29,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 w-full h-full flex items-center justify-center sm:mt-0 mt-20">
+      <div className="relative z-10 w-full h-full flex items-center justify-center sm:mt-0 mt-20 hero-height">
         <div className="text-center fstColsHd">
           <h1 className="relative text-[#13263E] hero-header">
             <sup className="text-[#ED552C] hero-hash"><img src="/images/hash.png" alt="" className='xl:w-20 xl:h-20' /></sup>Your Perfect
